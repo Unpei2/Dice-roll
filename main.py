@@ -40,7 +40,7 @@ while loop:
             print(str(randnum1) + "," + str(randnum2) +
                   " (sum: " + str(sum) + ")")
             x += 1
-            if randnum1 and randnum2 == 1:
+            if randnum1 == 1 and randnum2 == 1:
                 snake = True
                 print("SNAKE EYES! It took " + str(x) + " to get snake eyes.")
     else:
